@@ -3,9 +3,9 @@ body {
 }
 
 .calculator {
-    position:absolute;
-    left: 40%;
-    top: 20%;
+    position: fixed;
+    left: 7%;
+    top: 10%;
     background-color: rgb(71, 71, 71);
     width: 400px;
     height: 500px;
