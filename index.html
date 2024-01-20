@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javscript Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <br>
+        <div class="calculator-screen">
+            <div class="number-field" id="display-value">0</div>
+        </div>
+        <div class="button-panel">
+            <button class="calc-button7" id="7">
+                <span class="button-value">7</span>
+            </button>
+            <button class="calc-button8" id="8">
+                <span class="button-value">8</span>
+            </button>
+            <button class="calc-button9" id="9">
+                <span class="button-value">9</span>
+            </button>
+            <button class="calc-button4" id="4">
+                <span class="button-value">4</span>
+            </button>
+            <button class="calc-button5" id="5">
+                <span class="button-value">5</span>
+            </button>
+            <button class="calc-button6" id="6">
+                <span class="button-value">6</span>
+            </button>
+            <button class="calc-button1" id="1">
+                <span class="button-value">1</span>
+            </button>
+            <button class="calc-button2" id="2">
+                <span class="button-value">2</span>
+            </button>
+            <button class="calc-button3" id="3">
+                <span class="button-value">3</span>
+            </button>
+            <button class="clear-button" onclick="clearDisplay()">
+                <span class="button-value"><strong>C</strong></span>
+            </button>
+            <button class="calc-button0" id="0">
+                <span class="button-value">0</span>
+            </button>
+            <button class="back-button" onclick="backFunc()">
+                <span class="back-button-value">&larr;</span>
+            </button>
+            <button class="add-button op-button" id="add">
+                <span class="button-value">+</span>
+            </button>
+            <button class="sub-button op-button" id="sub">
+                <span class="button-value">-</span>
+            </button>
+            <button class="mult-button op-button" id="mult">
+                <span class="button-value">x</span>
+            </button>
+            <button class="div-button op-button" id="div">
+                <span class="button-value">÷</span>
+            </button>
+            <button class="eq-button op-button" id="eq">
+                <span class="button-value">=</span>
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>

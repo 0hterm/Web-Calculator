@@ -1,0 +1,359 @@
+body {
+    background-color: rgb(43, 42, 42);
+}
+
+.calculator {
+    position:absolute;
+    left: 40%;
+    top: 20%;
+    background-color: rgb(71, 71, 71);
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 0 25px black;
+    border-radius: 20px;
+}
+
+.calculator-screen {
+    background-color: rgb(149, 155, 123);
+    margin-left: 20px;
+    margin-right: -20px;
+    width: 360px;
+    height: 60px;
+    box-shadow: 0 0 20px rgb(149, 155, 123);
+}
+
+.number-field {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 14px;
+    font-size: 30px;
+    float: right;
+    right: 5px;
+}
+
+.calc-button7 {
+    display: flex;
+    background-color: rgb(24, 24, 24);
+    position: relative;
+    top: 70px;
+    left: 50px;
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    align-items: center;
+    border: solid 1px white;
+    box-shadow: 0 0 4px white;
+}
+
+.button-value {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    margin-left: 37%;
+}
+
+.calc-button8 {
+    display: flex;
+    background-color: rgb(24, 24, 24);
+    position: relative;
+    top: -2px;
+    left: 150px;
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    align-items: center;
+    border: solid 1px white;
+    box-shadow: 0 0 4px white;
+}
+
+.calc-button9 {
+    display: flex;
+    background-color: rgb(24, 24, 24);
+    position: relative;
+    top: -74px;
+    left: 250px;
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    align-items: center;
+    border: solid 1px white;
+    box-shadow: 0 0 4px white;
+}
+
+.calc-button4 {
+    display: flex;
+    background-color: rgb(24, 24, 24);
+    position: relative;
+    top: -50px;
+    left: 50px;
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    align-items: center;
+    border: solid 1px white;
+    box-shadow: 0 0 4px white;
+}
+
+.calc-button5 {
+    display: flex;
+    background-color: rgb(24, 24, 24);
+    position: relative;
+    top: -122px;
+    left: 150px;
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    align-items: center;
+    border: solid 1px white;
+    box-shadow: 0 0 4px white;
+}
+
+.calc-button6 {
+    display: flex;
+    background-color: rgb(24, 24, 24);
+    position: relative;
+    top: -193px;
+    left: 250px;
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    align-items: center;
+    border: solid 1px white;
+    box-shadow: 0 0 4px white;
+}
+
+.calc-button1 {
+    display: flex;
+    background-color: rgb(24, 24, 24);
+    position: relative;
+    top: -168px;
+    left: 50px;
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    align-items: center;
+    border: solid 1px white;
+    box-shadow: 0 0 4px white;
+}
+
+.calc-button2 {
+    display: flex;
+    background-color: rgb(24, 24, 24);
+    position: relative;
+    top: -241px;
+    left: 150px;
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    align-items: center;
+    border: solid 1px white;
+    box-shadow: 0 0 4px white;
+}
+
+.calc-button3 {
+    display: flex;
+    background-color: rgb(24, 24, 24);
+    position: relative;
+    top: -313px;
+    left: 250px;
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    align-items: center;
+    border: solid 1px white;
+    box-shadow: 0 0 4px white;
+}
+
+.calc-button7:hover {
+    cursor: pointer;
+    box-shadow: 0 0 8px white;
+}
+
+.calc-button8:hover {
+    cursor: pointer;
+    box-shadow: 0 0 8px white;
+}
+
+.calc-button9:hover {
+    cursor: pointer;
+    box-shadow: 0 0 8px white;
+}
+
+.calc-button4:hover {
+    cursor: pointer;
+    box-shadow: 0 0 8px white;
+}
+
+.calc-button5:hover {
+    cursor: pointer;
+    box-shadow: 0 0 8px white;
+}
+
+.calc-button6:hover {
+    cursor: pointer;
+    box-shadow: 0 0 8px white;
+}
+
+.calc-button1:hover {
+    cursor: pointer;
+    box-shadow: 0 0 8px white;
+}
+
+.calc-button2:hover {
+    cursor: pointer;
+    box-shadow: 0 0 8px white;
+}
+
+.calc-button3:hover {
+    cursor: pointer;
+    box-shadow: 0 0 8px white;
+}
+
+.clear-button {
+    display: flex;
+    background-color: rgb(24, 24, 24);
+    position: relative;
+    top: -290px;
+    left: 50px;
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    align-items: center;
+    border: solid 1px white;
+    box-shadow: 0 0 4px white;
+}
+
+.clear-button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 8px white;
+}
+
+.calc-button0 {
+    display: flex;
+    background-color: rgb(24, 24, 24);
+    position: relative;
+    top: -361px;
+    left: 150px;
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    align-items: center;
+    border: solid 1px white;
+    box-shadow: 0 0 4px white;
+}
+
+.calc-button0:hover {
+    cursor: pointer;
+    box-shadow: 0 0 8px white;
+}
+
+.back-button {
+    display: flex;
+    background-color: rgb(24, 24, 24);
+    position: relative;
+    top: -432px;
+    left: 250px;
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    align-items: center;
+    border: solid 1px white;
+    box-shadow: 0 0 4px white;
+}
+
+.back-button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 8px white;
+}
+
+.back-button-value {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    margin-top: -6px;
+    margin-left: 20%;
+}
+
+.add-button {
+    display: flex;
+    background-color: rgb(187, 63, 63);
+    position: absolute;
+    top: 100px;
+    left: 333px;
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    align-items: center;
+    border: solid 1px white;
+    box-shadow: 0 0 4px white;
+    text-indent: -6px;
+    width: 50px;
+}
+
+.op-button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(131, 37, 37);
+}
+
+.sub-button {
+    display: flex;
+    background-color: rgb(187, 63, 63);
+    position: absolute;
+    top: 180px;
+    left: 333px;
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    align-items: center;
+    border: solid 1px white;
+    box-shadow: 0 0 4px white;
+    text-indent: -2px;
+    width: 50px;
+}
+
+.mult-button {
+    display: flex;
+    background-color: rgb(187, 63, 63);
+    position: absolute;
+    top: 260px;
+    left: 333px;
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    align-items: center;
+    border: solid 1px white;
+    box-shadow: 0 0 4px white;
+    text-indent: -4px;
+    width: 50px;
+}
+
+.div-button {
+    display: flex;
+    background-color: rgb(187, 63, 63);
+    position: absolute;
+    top: 340px;
+    left: 333px;
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    align-items: center;
+    border: solid 1px white;
+    box-shadow: 0 0 4px white;
+    text-indent: -4px;
+    width: 50px;
+}
+
+.eq-button {
+    display: flex;
+    background-color: rgb(187, 63, 63);
+    position: absolute;
+    top: 415px;
+    left: 333px;
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    align-items: center;
+    border: solid 1px white;
+    box-shadow: 0 0 4px white;
+    text-indent: -4px;
+    width: 50px;
+}
